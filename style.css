@@ -53,7 +53,12 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px
+    padding: 20px 50px;
+    color: white;
+}
+
+.bloc-sm a {
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .bg-center,
@@ -133,7 +138,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6)
+    color: white
 }
 
 .d-bloc .a-btn:hover,
@@ -789,15 +794,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C
+    background-color: #C14A13
 }
 
 .tc-white {
-    color: #F3976C
+    color: #FFF;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #C14A13;
     color: #FFFFFF
 }
 
@@ -815,7 +820,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C
+    color: #C14A13
 }
 
 .ltc-atomic-tangerine:hover {
