@@ -100,6 +100,10 @@ a:hover {
     background-size: 280px 280px
 }
 
+.relative {
+    position: relative;
+}
+
 .b-parallax {
     background-attachment: fixed
 }
@@ -138,7 +142,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: white
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -155,7 +159,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1)
+    color: rgba(0, 0, 0, 0.5)
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -697,7 +701,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF;
+    color: #000000;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -729,7 +733,7 @@ p {
 
 h2 {
     font-size: 22px;
-    line-height: 1.4em
+    line-height: 1.4em;
 }
 
 h3 {
@@ -759,7 +763,11 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF
+    color: #FFFFFF;
+}
+
+.black {
+    color: #000000
 }
 
 .portfolio-thumb {
@@ -794,7 +802,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #C14A13
+    background-color: #F3976C
 }
 
 .tc-white {
@@ -802,13 +810,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #C14A13;
-    color: #FFFFFF
+    background: #F3976C;
+    color: #000000;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956;
-    color: #FFFFFF
+    color: #000000
 }
 
 .ltc-white {
@@ -820,7 +828,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #C14A13
+    color: #F3976C
 }
 
 .ltc-atomic-tangerine:hover {
@@ -845,7 +853,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url(img/image-de-presentation.bmp)
+    background-image: url(img/image-de-presentation.jpg)
 }
 
 
